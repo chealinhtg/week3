@@ -1,0 +1,117 @@
+body{
+    background-color: #fafafa;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card{
+    background-color: white;
+    width: 340px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.profile-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d37dd0;
+}
+
+.profile-card h2{
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.username {
+    margin: 4px 0 15px 0;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.profile-card p{
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.insta-stats{
+    /* display: flex;
+    justify-content: space-around;
+    margin: 25px 0; */
+
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.insta-stats div{
+    /* display: felx;
+    flex-direction: column;
+    align-items: center; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.insta-stats strong {
+    font-size: 16px;
+
+}
+
+.insta-stats span{
+    color: #777777;
+    font-size: 12px;
+} 
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-1{
+    flex: 1;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-1:hover{
+    background-color: #1877f2;
+}
+
+.btn-2{
+    flex: 1;
+    background-color: #efefef;
+    color: #262626;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-2:hover{
+    background-color: #dbdbdb;
+}
